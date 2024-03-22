@@ -1,9 +1,9 @@
-
+import bannar from "../../assets/img/dns.jpg"
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <img src={bannar} alt="" className="w-full" />
         </div>
     );
 };
